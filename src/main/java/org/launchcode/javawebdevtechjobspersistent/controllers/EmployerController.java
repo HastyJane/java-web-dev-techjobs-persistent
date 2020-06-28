@@ -25,7 +25,7 @@ public class EmployerController {
                                     Errors errors, Model model) {
 
         if (errors.hasErrors()) {
-            return "employers/add";
+            return "employers/ad";
         }
 
         return "redirect:";
