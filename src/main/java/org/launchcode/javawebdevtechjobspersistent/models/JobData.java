@@ -1,5 +1,6 @@
 package org.launchcode.javawebdevtechjobspersistent.models;
 
+import javax.persistence.Entity;
 import java.util.ArrayList;
 
 // This is a change made in sandbox.
@@ -8,7 +9,6 @@ import java.util.ArrayList;
  * Created by LaunchCode
  */
 public class JobData {
-
 
     /**
      * Returns the results of searching the Jobs data by field and search term.
